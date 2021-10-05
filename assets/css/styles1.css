@@ -127,7 +127,11 @@ a.bmore1:hover{
 .searchbox{
     background: transparent;
     border-style:solid;
-    border-bottom: 1px;
+     
+    border-left-width:0px ;
+    border-right-width:0px ;
+    border-top-width:0px ;
+    border-bottom-width: 1px;
     border-color: #ffffff;
 }
 
