@@ -2,6 +2,7 @@
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
+    font-family: 'Ubuntu', sans-serif !ιμπορταντ;
 }
 .containermenu{
     position:fixed;
@@ -33,6 +34,12 @@ width:100%;
 
 
 }
+.center-box{
+    color: #ffffff;
+    /* align-self: center;
+    flex-basis: auto; */
+    margin: 0 auto;
+}
 
 .contop{
 padding-top: 104px;
@@ -54,20 +61,35 @@ position: fixed;
 ul#themenu li {
     display:inline;
   }
+
+  .center-box > h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+  }
 .linkomenu{
     padding-right: 12px;
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    
 }
 .linkomenu:hover{
     padding-right: 12px;
     color: #ffffff;
     text-decoration: undrline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
 }
 
 .precaro{
-    background-image: url("../images/homepage.png");
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(
+'../images/homepage.png');
+    /* background-image: url("../images/homepage.png"); */
     height: calc(100vh - 105px);
+    /* height: 666px; */
     background-size:cover;
 }
 
@@ -117,6 +139,8 @@ a.langg:hover{
     border-color:#ffffff;
     color : #ffffff;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
 }
 
 a.boxw:hover{
@@ -127,10 +151,14 @@ a.boxw:hover{
   border-color:#ffffff;
   color : #ffffff;
   text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
 }
 
 
 .boxwn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     padding: 8px;
     margin: 2px;
     border-width:0px;
@@ -141,6 +169,9 @@ a.boxw:hover{
 }
 
 a.boxwn:hover{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    
   padding: 8px;
   margin: 2px;
   border-width:0px;
