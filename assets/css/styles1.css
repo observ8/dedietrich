@@ -126,6 +126,9 @@ a.bmore1:hover{
 }
 .searchbox{
     background: transparent;
+    border-style:solid;
+    border-bottom: 1px;
+    border-color: #ffffff;
 }
 
   
