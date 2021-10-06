@@ -2,12 +2,13 @@
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
-    font-family: 'Ubuntu', sans-serif !ιμπορταντ;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 .containermenu{
     position:fixed;
     margin:0 auto;
 width:100%;
+z-index: 100;
 }
 .dedietrichlogo{
     margin-left:-14px;
@@ -20,7 +21,7 @@ width:100%;
 height:105px;
 margin:0 auto;
 width:100%;
-max-width:1200px;
+max-width:1400px;
 padding-left:8px;
 padding-right:8px;
 }
@@ -50,6 +51,7 @@ padding-top: 104px;
 margin:0 auto;
 width:100%;
 position: fixed;
+z-index: 100;
 }
 
 #themenu{
@@ -101,7 +103,7 @@ width:100%;
 .topmenusecondary{
     margin:0 auto;
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     padding-left:8px;
 padding-right:8px;
 }
@@ -219,6 +221,125 @@ padding: 3px;
 margin-left: 39px;
 padding-left: 29px;
 padding-bottom: 4px;
+}
+
+.title1{
+    font-size: 28px;
+    font-weight: 200;
+}
+.title2{
+    font-size: 18px;
+    font-weight: 200;
+}
+.iconyp{
+    padding-top:15px ;
+}
+
+.fluideg{
+    width:100%;
+    background: rgb(32,50,127);
+    background: linear-gradient(107deg, rgba(32,50,127,1) 7%, rgba(42,155,209,1) 50%, rgba(247,172,0,1) 79%); 
+}
+
+.grlb{
+    max-width:324px;
+    width:100%;
+}
+
+.txtabv{
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 200;
+}
+
+.curvy{
+    color: #ffffff;
+
+
+    padding: 8px;
+    margin: 2px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ffffff;
+    color : #ffffff;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    border-radius: 18px;
+}
+a.curvy:hover{
+    color: #ffffff;
+
+
+    padding: 8px;
+    margin: 2px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ffffff;
+    color : #ffffff;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    border-radius: 18px;
+}
+.witter{
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.greycontainer{
+    background-color: #f2f2f2;
+    width:100%;
+}
+
+.cardextra{
+    border-width: 0px !important;
+    border-radius: 0px !important;
+}
+.headg{
+    font-size: 28px;
+font-weight: 200;
+}
+
+.morecard{
+    color:#000000;
+    text-decoration: none;
+}
+a.morecard:hover{
+    color:#000000;
+    text-decoration: none;
+}
+
+.footercontainer{
+    background-color: #163782;
+    width:100%;
+
+}
+
+
+.thelistfooter {
+    list-style-type:none;
+}
+
+.linkfooter{
+    text-decoration: none;
+    color:#ffffff;
+}
+a.linkfooter:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.logofooter{
+    padding-bottom: 23px;
+}
+
+.whitet{
+    color: #ffffff;
 }
 
   
