@@ -99,6 +99,12 @@ ul#themenu li {
 .topmenuoutsecondary{
     margin:0 auto;
 width:100%;
+margin-top: -4px;
+height: 42px;
+line-height: 42px;
+border-bottom-width:0px ;
+border-bottom-style:solid ;
+border-bottom-color:#ffffff ;
 }
 .topmenusecondary{
     margin:0 auto;
@@ -340,6 +346,14 @@ a.linkfooter:hover{
 
 .whitet{
     color: #ffffff;
+}
+
+.imenu2scroll{
+  
+    background-color:#163782 ;
+    border-bottom-width:1px ;
+border-bottom-style:solid ;
+border-bottom-color:#ffffff ;
 }
 
   
