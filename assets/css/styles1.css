@@ -105,6 +105,7 @@ line-height: 42px;
 border-bottom-width:0px ;
 border-bottom-style:solid ;
 border-bottom-color:#ffffff ;
+transition: all 0.6s;
 }
 .topmenusecondary{
     margin:0 auto;
@@ -355,5 +356,41 @@ a.linkfooter:hover{
 border-bottom-style:solid ;
 border-bottom-color:#ffffff ;
 }
+.mobiles{
+    display: none;
+}
+
+@media screen and (max-width: 793px) {
+.desctops{
+    display: none;
+    
+}
+.mobiles{
+    display: inline-block;
+}
+.langg{
+    padding-right:8px ;
+}
+.dedietrichlogo{
+    width:155px;
+    padding-top:9px;
+    padding-left:7px
+}
+.contop {
+    padding-top: 70px;
+}
+.topmenuout{
+height: 70px;
+}
+.righttib{
+   height: 70px
+}
+.topmenu{
+    height: 70px; 
+}
+.topmenuoutsecondary{
+    display: none;
+}
+}    
 
   
