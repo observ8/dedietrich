@@ -360,7 +360,127 @@ border-bottom-color:#ffffff ;
     display: none;
 }
 
+#mysubmenu {
+    display: none;
+    
+}
+.subm {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    display: block;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.subm:hover {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e9e9e9;
+    display: block;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.mob_m{
+    cursor:pointer
+}
+
+.searchtxtf {
+    font-size: 16px;
+    padding: 10px;
+    width: 97%;
+}
+.txtc {
+    text-align: center;
+}
+
+.closesearch {
+    color:#aaa;
+    float:right;
+    top:-3px;
+    font-size:48px;
+    font-weight:700
+   }
+   .closesearch:hover,
+   .closesearch:focus {
+    color:#000;
+    text-decoration:none;
+    cursor:pointer
+   }
+   .pader-search {
+    padding-top:23px
+   }
+   .modal-contentsearch {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 4 solid #0054a6;
+    width: 100%;
+    position: fixed;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-name: animatetop;
+    animation-duration: .4s;
+}
+.modalsearch {
+    display: none;
+    position: fixed;
+    z-index: 112;
+    padding-top: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0,0,0,.7);
+}
+
+modal-contentsearch {
+    background-color: #faebdf;
+    margin: auto;
+    padding: 20px;
+    border: 0 solid #888;
+    width: 100%;
+    position: fixed;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-name: animatetop;
+    animation-duration: .4s;
+}
+
+#mysearch{
+    cursor: pointer;
+}
+#mysearch1{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 793px) {
+
+
+    #mysubmenu {
+        display: none;
+        width: 100vw;
+        background-color:#163782 ;
+        position: fixed;
+        top: 70px;
+        /* height: 40px; */
+        left: 0px;
+        z-index: 100;
+    }
+
 .desctops{
     display: none;
     
